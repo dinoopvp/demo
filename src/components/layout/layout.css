@@ -1,0 +1,91 @@
+.search-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-bottom: 2%;font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 3%;
+
+}
+.react-date-picker{
+    background-color: #ffffff;
+}
+.react-date-picker__inputGroup__divider{
+    color:black;
+}
+.content-dummy-area{
+    min-height: 60vh;
+}
+.location-container{
+    padding:12%;
+}
+.duration-container{
+    padding:9%;
+}
+.adults-container{
+    padding:15%;
+}
+
+.button-search{
+    padding:11%;
+}
+.react-date-picker{
+    padding:6%;
+}
+.content-wrapper{
+    display: flex;
+}
+.sidebar{
+width:20%;
+overflow: hidden;
+}
+.search-results-container{
+width:80%;
+margin-left: 2%;
+}
+.field-error{
+    color:red;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .search-container{
+        flex-direction: column;
+    }
+    .location-container{
+        padding:2%
+    }
+    .duration-container{
+        padding:2%;
+    }
+    .adults-container{
+        padding:2%;
+    }
+    .react-date-picker{
+        padding:2%;
+    }
+    .button-search{
+        padding:3%;
+    }
+    .content-wrapper{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 96%;
+    }
+    .react-date-picker,select,button{
+        width:100%
+    }
+    .search-fields{
+        margin-bottom:2%;
+    }
+    .holiday-home-list{
+        flex-direction: column;
+    }
+    .card{
+        width:100%;
+    }
+  }
