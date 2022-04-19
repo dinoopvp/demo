@@ -22,7 +22,7 @@ function AllHolidayHome(props) {
     }
 
     useEffect(() => {
-        axios.post(`${API_HOST_NAME}${SEARCH_END_POINT}`, payload).then((response) => {
+        axios.post(`${SEARCH_END_POINT}`, payload).then((response) => {
             setHolidayHomes(response.data.holidays)
             setIsLoading(false);
         })
